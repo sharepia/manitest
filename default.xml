@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="ssh://git@github.com/" name="lampauto"/>
   
-  <default remote="lampauto" revision="lampauto_p_release"/>
+  <default remote="lampauto" revision="event"/>
   
   <project name="sharepia/C_Practice" path="c" revision="802a5932c75141a837b69b5a729083eb73f6d062" upstream="lampauto_p_release"/>
   <project name="sharepia/bash" path="bash" revision="9aacdd2eebb73bfdf0ff9f1e7532641183516bc6" upstream="lampauto_p_release"/>
