@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>                                           
 <manifest>                                                                       
     <remote                                                                      
-        name="origin"                                                            
+        name="lampauto"                                                            
         fetch="ssh://git@github.com/"/>                                          
     
-   <default revision="master_p" remote="origin"/>                                 
+   <default revision="lampauto_p_release" remote="lampauto"/>                                 
                                                                                  
     <project                                                                     
         path="bash"                                                              
@@ -15,4 +15,8 @@
     <project                                                                     
         path="html5"                                                             
         name="sharepia/html5"/>                                                         
+
+    <project                                                                     
+        path="python"                                                             
+        name="sharepia/python" revision="geely_msm8996_p"/>
 </manifest> 
