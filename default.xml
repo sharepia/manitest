@@ -1,22 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>                                           
-<manifest>                                                                       
-    <remote                                                                      
-        name="lampauto"                                                            
-        fetch="ssh://git@github.com/"/>                                          
-    
-   <default revision="lampauto_p_release" remote="lampauto"/>                                 
-                                                                                 
-    <project                                                                     
-        path="bash"                                                              
-        name="sharepia/bash"/>                                                  
-    <project                                                                     
-        path="c"                                                                 
-        name="sharepia/C_Practice"/>                                            
-    <project                                                                     
-        path="html5"                                                             
-        name="sharepia/html5"/>                                                         
-
-    <project                                                                     
-        path="python"                                                             
-        name="sharepia/python" revision="geely_msm8996_p"/>
-</manifest> 
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="ssh://git@github.com/" name="lampauto"/>
+  
+  <default remote="lampauto" revision="lampauto_p_release"/>
+  
+  <project name="sharepia/C_Practice" path="c" revision="802a5932c75141a837b69b5a729083eb73f6d062" upstream="lampauto_p_release"/>
+  <project name="sharepia/bash" path="bash" revision="9aacdd2eebb73bfdf0ff9f1e7532641183516bc6" upstream="lampauto_p_release"/>
+  <project name="sharepia/html5" path="html5" revision="efda692d51f1eabca4d235f977af152c7cda16f5" upstream="lampauto_p_release"/>
+  <project name="sharepia/python" path="python" revision="897e3273fc5814015727518f9f02257fc0897a6a" upstream="geely_msm8996_p"/>
+</manifest>
