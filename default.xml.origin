@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>                                           
+<manifest>                                                                       
+    <remote                                                                      
+        name="lampauto"                                                            
+        fetch="ssh://git@github.com/"/>                                          
+    
+   <default revision="lampauto_p_release" remote="lampauto"/>                                 
+                                                                                 
+    <project                                                                     
+        path="bash"                                                              
+        name="sharepia/bash"/>                                                  
+    <project                                                                     
+        path="java"                                                                 
+        name="sharepia/java"/>                                            
+    <project                                                                     
+        path="html"                                                             
+        name="sharepia/html"/>                                                         
+
+    <project                                                                     
+        path="python"                                                             
+        name="sharepia/python" revision="geely_msm8996_p"/>
+</manifest> 
